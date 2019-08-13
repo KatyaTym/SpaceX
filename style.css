@@ -1,0 +1,35 @@
+body {
+    background-color: #6F8CAE;
+}
+
+.container {
+    columns: 5;
+    padding-left: 0;
+}
+
+.column {
+    background-color: #587390;
+    width: 100%;
+    height: 90px;
+    color: white;
+    padding: 2px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background: rgba(158, 195, 219, 1);
+    background: -moz-linear-gradient(top, rgba(158, 195, 219, 1) 0%, rgba(140, 174, 200, 1) 1%, rgba(88, 115, 144, 1) 72%, rgba(88, 115, 144, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(158, 195, 219, 1)), color-stop(1%, rgba(140, 174, 200, 1)), color-stop(72%, rgba(88, 115, 144, 1)), color-stop(100%, rgba(88, 115, 144, 1)));
+    background: -webkit-linear-gradient(top, rgba(158, 195, 219, 1) 0%, rgba(140, 174, 200, 1) 1%, rgba(88, 115, 144, 1) 72%, rgba(88, 115, 144, 1) 100%);
+    background: -o-linear-gradient(top, rgba(158, 195, 219, 1) 0%, rgba(140, 174, 200, 1) 1%, rgba(88, 115, 144, 1) 72%, rgba(88, 115, 144, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(158, 195, 219, 1) 0%, rgba(140, 174, 200, 1) 1%, rgba(88, 115, 144, 1) 72%, rgba(88, 115, 144, 1) 100%);
+    background: linear-gradient(to bottom, rgba(158, 195, 219, 1) 0%, rgba(140, 174, 200, 1) 1%, rgba(88, 115, 144, 1) 72%, rgba(88, 115, 144, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ec3db', endColorstr='#587390', GradientType=0);
+
+}
+h5{
+	margin-top: 0;
+	padding-left: 5%;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
