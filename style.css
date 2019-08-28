@@ -1,15 +1,22 @@
 body {
     background-color: #6F8CAE;
-    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.column,
-.columns,
-.day_column,
-.time_column {
+.container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.col,
+.col-md-4,
+.col-xs {
+    border: 2px solid #6F8CAE;
+}
+
+.column {
     background-color: #587390;
-    width: 248px;
-    height: 90px;
     color: white;
     font-family: Andale Mono, monospace;
     background: rgba(140, 174, 200, 1);
@@ -20,73 +27,32 @@ body {
     background: -ms-linear-gradient(top, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
     background: linear-gradient(to bottom, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8caec8', endColorstr='#587390', GradientType=0);
-    float: left;
-    border: 2px solid #6F8CAE;
 }
 
-.columns {
-    width: 247px;
-    float: left;
-    height: 129px;
-    background: rgba(88, 115, 144, 1);
-    background: -moz-linear-gradient(top, rgba(88, 115, 144, 1) 0%, rgba(88, 115, 144, 1) 38%, rgba(113, 138, 172, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(88, 115, 144, 1)), color-stop(38%, rgba(88, 115, 144, 1)), color-stop(100%, rgba(113, 138, 172, 1)));
-    background: -webkit-linear-gradient(top, rgba(88, 115, 144, 1) 0%, rgba(88, 115, 144, 1) 38%, rgba(113, 138, 172, 1) 100%);
-    background: -o-linear-gradient(top, rgba(88, 115, 144, 1) 0%, rgba(88, 115, 144, 1) 38%, rgba(113, 138, 172, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(88, 115, 144, 1) 0%, rgba(88, 115, 144, 1) 38%, rgba(113, 138, 172, 1) 100%);
-    background: linear-gradient(to bottom, rgba(88, 115, 144, 1) 0%, rgba(88, 115, 144, 1) 38%, rgba(113, 138, 172, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#587390', endColorstr='#718aac', GradientType=0);
-
-    margin-right: 0;
+.alarm_column {
+    height: 70px;
+    border: none;
 }
 
-.day_column {
-    width: 505px;
-    height: 129px;
+.navbar {
+    position-left: 30px;
+    position-right: 30px;
 }
 
-.alarm_column,
-.schedule_column {
-    background-color: #6783A3;
+.image {
+    padding-right: 47px;
+    padding-left: 47px;
     width: 100%;
-    height: 90px;
-    float: left;
-    font-family: Andale Mono, monospace;
-    color: white;
+    height: 250px;
 }
 
-.time_column {
-    width: 627px;
-    height: 55px;
-
-}
-
-.schedule_column {
-	height: 60px;
-}
-
-h5 {
-    margin-top: 0;
-    padding: 5px;
-}
-
-h2 {
-    padding: 5px;
-}
-
-img {
+.shedule {
     width: 100%;
-    height: 300px;
+    height: 110px;
 }
 
-.raignt {
-    float: right;
-    text-align: right;
-}
-
-.left {
-    float: left;
-    padding-top: 0px;
+.text-align {
+    text-align: end;
 }
 
 .color_turquoise {
@@ -95,10 +61,6 @@ img {
 
 .color_grey {
     color: #9CA0AA;
-}
-
-#enabled {
-    margin-top: -47px;
 }
 
 .large_font {
@@ -111,20 +73,4 @@ img {
 
 .small_font {
     font-size: 12px;
-}
-
-.margin_right- {
-	margin-right: -66px;
-}
-
-.margin_rignt {
-	margin-right: 35px;
-}
-
-.margin_left- {
-	margin-left: -120px;
-}
-
-.margin_left {
-	margin-left: 35px;
 }

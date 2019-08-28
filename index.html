@@ -4,58 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>SpaceX</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="column">
-            <h5>Crew</h5>
-            <h2>Dragon</h2>
-        </div>
-        <div class="column">
-            <h5>Perigee</h5>
-            <h2>185.013<span class="color_turquoise">m</span></h2>
-        </div>
-        <div class="column">
-            <h5>Apogee</h5>
-            <h2>360.304<span class="color_turquoise">m</span></h2>
-        </div>
-        <div class="column">
-            <h5>Relative Altitube</h5>
-            <h2>50,948<span class="color_turquoise">m</span></h2>
-        </div>
-        <div class="column">
-            <h5>Range to ISS</h5>
-            <h2>625,713</h2>
+        <div class="row column">
+            <div class="col">
+                <p>Crew</p>
+                <p>Dragon</p>
+            </div>
+            <div class="col">
+                <p>Perigee</p>
+                <p>185.013<span class="color_turquoise">m</span></p>
+            </div>
+            <div class="col">
+                <p>Apogee</p>
+                <p>185.013<span class="color_turquoise">m</span></p>
+            </div>
+            <div class="col">
+                <p>Relative Altitube</p>
+                <p>360.304<span class="color_turquoise">m</span></p>
+            </div>
+            <div class="col">
+                <p>Range to ISS</p>
+                <p>625,713</p>
+            </div>
         </div>
     </div>
-    <img src="img/19620.jpg">
+    <img class="image" src="img/19620.jpg" alt="space">
     <div class="container">
-        <div class="day_column">
-            <h5>Day 131</h5>
-            <h2 class="large_font">13:46:11</h2>
-        </div>
-        <div class="columns">
-            <h2>schedule</h2>
-        </div>
-        <div class="columns">
-            <h5 class="color_grey">Next Burn</h5>
-            <h5 id="enabled" class="raignt color_turquoise">Enabled</h5>
-            <h2>-0:05:48</h2>
-            <h5 class="left color_grey">13:52:00</h5>
-            <h5 class="raignt color_grey">DAY 131</h5>
-        </div>
-        <div class="columns">
-            <h5 class="color_grey">Target</h5>
-            <h2>33.5m/s</h2>
-            <h5 class="color_turquoise">Thrust Temps</h5>
+        <div class="row column">
+            <div class="col-md-4">
+                <p>Day 131</p>
+                <p>13:46:11</p>
+            </div>
+            <div class="col-xs">
+                <img class="shedule" src="img/Shedule.png" alt="schedule">
+            </div>
+            <div class="col">
+                <p>Next Burn <span>Enabled</span></p>
+                <p>-0:05:48 <span>DAY 131</span></p>
+            </div>
+            <div class="col">
+                <p>Target</p>
+                <p>33.5m/s <span>Thrust Temps</span></p>
+            </div>
         </div>
     </div>
-    <div class="alarm_column container color_turquoise">
-        <h2 class="left large_font margin_left">0 Alarms</h2>
-        <h2 class="raignt large_font margin_rignt">All Systems Normal</h2>
+    <div class="container">
+        <div class="row column medium_font color_turquoise">
+            <div class="col alarm_column">
+                <p>0 Alarms</p>
+            </div>
+            <div class="col alarm_column">
+                <p class="text-align">All Systems Normal</p>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="time_column">
@@ -93,6 +100,20 @@
         <div class="schedule_column container">
             <h2 class="left medium_font margin_left">Schedule</h2>
             <h2 class="raignt medium_font margin_rignt">All Events</h2>
+        </div>
+        <div class="container">
+            <div class="time2_column">
+                <h2 class="left small_font margin_left color_turquoise">
+                    <p>13:10:00</p>
+                    <p>13:37:00</p>
+                    <p>13:46:45</p>
+                    <p>13:52:10</p>
+                </h2>
+            </div>
+            <div class="event_column">
+                <h2 class="left medium_font margin_left"></h2>
+                <h2 class="raignt medium_font margin_rignt"></h2>
+            </div>
         </div>
 </body>
 
