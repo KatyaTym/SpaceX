@@ -8,6 +8,7 @@ body {
 .container {
     padding-right: 0;
     padding-left: 0;
+    position: relative;
 }
 
 .col,
@@ -39,8 +40,8 @@ body {
 }
 
 .image {
-    padding-right: 47px;
-    padding-left: 47px;
+    padding-right: 55px;
+    padding-left: 55px;
     width: 100%;
     height: 250px;
 }
@@ -51,11 +52,15 @@ body {
 }
 
 .text-align-end {
-    float: right;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
 .text-align-center {
-    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
 }
 
 .color_turquoise {
@@ -79,5 +84,9 @@ body {
 }
 
 .size_height {
-    height: 70px;
+    height: 65px;
+}
+
+.margin-bottom {
+    margin-bottom: 0rem;
 }
