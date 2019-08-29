@@ -12,10 +12,8 @@ p {
     max-width: 100%;
 }
 
-.col,
-.col-md-4,
-.col-xs {
-    border: 2px solid #6F8CAE;
+.borders {
+    border: 2px solid #718EB1;
 }
 
 .col-1 {
@@ -61,6 +59,11 @@ p {
     padding-left: 15px;
 }
 
+.rendezvous_column {
+    color: white;
+    background-color: #83A0C6;
+}
+
 .navbar {
     position-left: 30px;
     position-right: 30px;
@@ -76,9 +79,15 @@ p {
     height: 110px;
 }
 
-.text_end {
+.text_end_above {
     position: absolute;
     top: 8px;
+    right: 16px;
+}
+
+.text_end_belowe {
+    position: absolute;
+    top: 76px;
     right: 16px;
 }
 
@@ -93,7 +102,7 @@ p {
 }
 
 .color_grey {
-    color: #9CA0AA;
+    color: #9DB3C9;
 }
 
 .large_font {
