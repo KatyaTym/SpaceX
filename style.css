@@ -29,7 +29,6 @@ p {
 }
 
 .color_gradient {
-    background-color: #587390;
     color: white;
     background: linear-gradient(to bottom, #8195ab 0%, #597491 100%);
 }
@@ -53,10 +52,6 @@ p {
     color: white;
     height: 55px;
     border: none;
-    margin-right: 0;
-    margin-left: 0;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .rendezvous_column {
@@ -64,9 +59,9 @@ p {
     background-color: #83A0C6;
 }
 
-.navbar {
-    position-left: 30px;
-    position-right: 30px;
+.end_column {
+    color: white;
+    background-color: #6783A3;
 }
 
 .image {
@@ -97,6 +92,14 @@ p {
     left: 30%;
 }
 
+.back_color {
+    background-color: #587390;
+}
+
+.color_white {
+    color: white;
+}
+
 .color_turquoise {
     color: #AAEAF1;
 }
@@ -107,6 +110,7 @@ p {
 
 .large_font {
     font-size: 25px;
+    font-weight: 600;
 }
 
 .medium_font {
@@ -117,8 +121,12 @@ p {
     font-size: 12px;
 }
 
+.large_height {
+    height: 900px;
+}
+
 .medium_height {
-    height: 100px;
+    height: 300px;
 }
 
 .small_height {
@@ -129,7 +137,7 @@ p {
     text-align: right;
 }
 
-.caption_delelimeter_line {
+.black_line {
     width: 100%;
     background-color: #4A617A;
     margin: 0;
