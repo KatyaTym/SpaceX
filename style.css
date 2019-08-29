@@ -2,6 +2,7 @@ body {
     background-color: #6F8CAE;
     margin-right: auto;
     margin-left: auto;
+    line-height: 2.0;
 }
 
 .container {
@@ -15,23 +16,21 @@ body {
     border: 2px solid #6F8CAE;
 }
 
-.column {
+.color_gradient {
     background-color: #587390;
     color: white;
     font-family: Andale Mono, monospace;
-    background: rgba(140, 174, 200, 1);
-    background: -moz-linear-gradient(top, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(140, 174, 200, 1)), color-stop(0%, rgba(113, 138, 172, 1)), color-stop(62%, rgba(88, 115, 144, 1)), color-stop(100%, rgba(88, 115, 144, 1)));
-    background: -webkit-linear-gradient(top, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
-    background: -o-linear-gradient(top, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
-    background: -ms-linear-gradient(top, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
-    background: linear-gradient(to bottom, rgba(140, 174, 200, 1) 0%, rgba(113, 138, 172, 1) 0%, rgba(88, 115, 144, 1) 62%, rgba(88, 115, 144, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#8caec8', endColorstr='#587390', GradientType=0);
+    background: linear-gradient(to bottom, #8195ab 0%, #597491 100%);
+}
+
+.reverse_color_gradient {
+    background: linear-gradient(to top, #6e87a9 0%, #587390 100%);
 }
 
 .alarm_column {
     height: 70px;
     border: none;
+    background-color: #6783A3;
 }
 
 .navbar {
@@ -51,8 +50,12 @@ body {
     height: 110px;
 }
 
-.text-align {
-    text-align: end;
+.text-align-end {
+    float: right;
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 .color_turquoise {
@@ -73,4 +76,8 @@ body {
 
 .small_font {
     font-size: 12px;
+}
+
+.size_height {
+    height: 70px;
 }
